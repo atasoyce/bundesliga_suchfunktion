@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bundesliga</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="ajax.js"></script>
+</head>
+<body>
+
+
+<div class="mainPart">
+
+    <div class="icons">
+        <i class="fas fa-running"></i>
+        <i class="fas fa-futbol"></i>
+    </div>
+
+
+    <h1 class="uberschrift">C L U B - S P I E L E R <br> S U C H E</h1>
+    <input class="inputfield" placeholder="Search..." type="text" id="items" onkeyup="showClubs()">
+
+
+    <div class="list">
+        <ul id="ausgabeClubs" style="list-style-type:none;" class="myUl">
+        </ul>
+    </div>
+
+
+    <table id="ausgabeSpieler">
+    </table>
+
+</div>
+</body>
+</html>
